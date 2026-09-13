@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+    <rect width="240" height="160" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1.5"/>
+    
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e1ecf4" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="metalCylinder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#243447" />
+      <stop offset="35%" stop-color="#415975" />
+      <stop offset="70%" stop-color="#243447" />
+      <stop offset="100%" stop-color="#15212d" />
+    </linearGradient>
+    <linearGradient id="chromeRod" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfd8dc" />
+      <stop offset="25%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#b0bec5" />
+      <stop offset="75%" stop-color="#90a4ae" />
+      <stop offset="100%" stop-color="#607d8b" />
+    </linearGradient>
+    <linearGradient id="brassThread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="50%" stop-color="#fff2a8" />
+      <stop offset="100%" stop-color="#aa8c2c" />
+    </linearGradient>
+    <linearGradient id="steelPart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78909c" />
+      <stop offset="40%" stop-color="#cfd8dc" />
+      <stop offset="80%" stop-color="#546e7a" />
+      <stop offset="100%" stop-color="#37474f" />
+    </linearGradient>
+  </defs>
+
+    <rect width="240" height="160" fill="url(#grid)" rx="8"/>
+    <g transform="translate(40, 20)">
+      <rect x="25" y="42" width="40" height="16" rx="2" fill="url(#steelPart)"/>
+    <circle cx="95" cy="50" r="22" fill="url(#steelPart)" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="95" cy="50" r="10" fill="#ffffff" stroke="#1e293b" stroke-width="1.5"/>
+    </g>
+    <rect x="0" y="125" width="240" height="35" fill="#f8fafc" rx="0 0 8 8" stroke="#e2e8f0" stroke-width="1 0 0 0"/>
+    <text x="120" y="142" font-family="'Manrope', sans-serif" font-size="12" font-weight="800" fill="#1b2a3a" text-anchor="middle">Проушина цинк (28)</text>
+    <text x="120" y="154" font-family="'Manrope', sans-serif" font-size="9" font-weight="600" fill="#64748b" text-anchor="middle">Длина 28 мм</text>
+  </svg>

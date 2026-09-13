@@ -1,0 +1,6 @@
+{
+  "name": "Дикон — Каталог и конфигуратор",
+  "description": "Интерактивный цифровой каталог и конфигуратор газовых пружин SUSPA, подбор артикула, скачивание чертежей и спецификаций в PDF, каталог продукции Dikon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
